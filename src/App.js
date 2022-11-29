@@ -1,10 +1,10 @@
 import './app.css'
-import Header from './projects/drive/components/Header'
-import SideBar from './projects/drive/components/SideBar'
-import FolderPrev from './projects/drive/components/FolderPrev'
-import FilePrev from './projects/drive/components/FilePrev'
-import Container from './projects/drive/components/Container'
-import Navigator from './projects/drive/components/Navigator'
+import Header from './components/Header'
+import SideBar from './components/SideBar'
+import FolderPrev from './components/FolderPrev'
+import FilePrev from './components/FilePrev'
+import Container from './components/Container'
+import Navigator from './components/Navigator'
 import {Route,Routes, Link, BrowserRouter} from 'react-router-dom'
 
 function App(){
