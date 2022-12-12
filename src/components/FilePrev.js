@@ -1,13 +1,16 @@
 function FilePrev(props){
-    return(
+    return (
         <div className="doc-prev">
+            {props.img&&
             <div className="doc-prev-img">
                 {/* the preview image */}
                 <img src={props.img} />
             </div>
+            }
+            
             <div className="doc-prev-info">
                 {/* file details  */}
-                <p>file details</p>
+                <h4>{props.name}</h4>
             </div>
         </div>
     )

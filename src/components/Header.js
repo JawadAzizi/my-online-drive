@@ -6,7 +6,7 @@ function Header(){
             <NavLink to ="/">
                 <h2>My Drive</h2>
             </NavLink>
-            <ul>
+            <ul className='header-routes'>
                 <li>
                     <NavLink to ="/user">
                         <span>User</span>

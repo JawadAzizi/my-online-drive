@@ -1,0 +1,43 @@
+{
+        "content":[
+            {
+                "name": "file1.jpg",
+                "isFolder": false
+            },
+            {
+                "name": "file2.jpg",
+                "isFolder": false
+            },
+            {
+                "isFolder": true,
+                "name": "folder1",
+                "content":
+                    [
+                        {
+                            "name": "file3",
+                            "isFolder": false
+                        }
+                    ]
+            },
+            {
+                "isFolder": true,
+                "name": "folder2",
+                "content":[
+                    {
+                        "name": "file3",
+                        "isFolder": false
+                    },
+                    {
+                        "isFolder": true,
+                        "name": "folder3",
+                        "content":[
+                            {
+                                "name": "file3",
+                                "isFolder": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
